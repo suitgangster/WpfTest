@@ -21,7 +21,7 @@
                 <TextBlock
                     VerticalAlignment="Center"
                     FontSize="13"
-                    Text="账号:" />
+                    Text="账号:" Foreground="Orange"/>
                 <TextBox
                     Width="200"
                     Margin="5"
@@ -53,7 +53,7 @@
             <Button
                 Width="200"
                 Height="30"
-                Background="Blue"
+                Background="green"
                 Command="{Binding LoginCommand}"
                 CommandParameter="{Binding ElementName=window}"
                 Content="登录"
