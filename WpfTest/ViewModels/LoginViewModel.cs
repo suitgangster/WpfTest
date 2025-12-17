@@ -46,7 +46,7 @@ namespace WpfTest.ViewModels
 
             //logger.Debug("LoginViewModel已创建");
             _logger = logger;
-            _logger.Information("LoginViewModel已创建hahahaha哈哈哈");
+            _logger.Information("LoginViewModel已创建hahahaha啦啦啦");
         }
 
         private void DoLogin(object o)
