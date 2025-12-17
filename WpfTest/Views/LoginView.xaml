@@ -46,13 +46,14 @@
                     Width="200"
                     Margin="5"
                     VerticalAlignment="Center"
-                    BorderThickness="0,0,0,1" 
                     comm:PasswordHelper.Attach="True"
-                    comm:PasswordHelper.Password="{Binding Password,Mode=TwoWay}"/>
+                    comm:PasswordHelper.Password="{Binding Password, Mode=TwoWay}"
+                    BorderThickness="0,0,0,1" />
             </StackPanel>
             <Button
                 Width="200"
                 Height="30"
+                Background="Red"
                 Command="{Binding LoginCommand}"
                 CommandParameter="{Binding ElementName=window}"
                 Content="登录"
