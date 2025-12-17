@@ -54,7 +54,7 @@
             <Button
                 Width="200"
                 Height="30"
-                Background="Black"
+                Background="Pink"
                 Command="{Binding LoginCommand}"
                 CommandParameter="{Binding ElementName=window}"
                 Content="登录"
