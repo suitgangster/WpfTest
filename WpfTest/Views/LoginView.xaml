@@ -21,7 +21,7 @@
                 <TextBlock
                     VerticalAlignment="Center"
                     FontSize="13"
-                    Text="账号:" />
+                    Text="账号:" Foreground="Orange"/>
                 <TextBox
                     Width="200"
                     Margin="5"
